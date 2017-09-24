@@ -3,7 +3,7 @@
 import os
 import sys
 from PIL import Image 
-sys.path.append('..\\')
+sys.path.append('..')
 from util import pytesseract
 
 def get_captcha(file):
